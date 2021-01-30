@@ -1,0 +1,50 @@
+#Sessions{
+    background-color:coral;
+    width: 250px;
+    height:150px;
+    position: absolute;
+        top:150px;
+        left: 400px;
+        font-family:serif;
+    }
+    #Formateurs{
+        background-color: springgreen;
+        width: 250px;
+        height:150px;
+        position: absolute;
+        top:150px;
+        left: 700px;
+    }
+    #Participant{
+        background-color:blueviolet;
+        width: 250px;
+        height:150px;
+        position: absolute;
+        top:150px;
+        left: 1000px;
+    }
+    .contenaire-acceuil{
+        color:WHITE;
+        font-family:verdana;
+    }
+    .table-sessions{
+        position: absolute;
+        top:400px;
+        right: 650px;
+    }
+    .table-top-formateurs{
+        position: absolute;
+        top:400px;
+        right: 350px;
+    }
+    th{
+        width: 200px;
+        background-color:rgb(62, 41, 201);
+        color:WHITE;
+        text-align :center;
+    }
+    td{
+        width: 120px;
+        text-align :center;
+        background-color:#d6e2f5;
+    }

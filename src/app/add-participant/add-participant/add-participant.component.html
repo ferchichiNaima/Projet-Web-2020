@@ -1,0 +1,53 @@
+<h1 style="text-align: center;"> Ajouter Un Participant </h1>
+<div class="container">
+    <br> 
+
+    <form   #f ='ngForm' (ngSubmit) ="onSubmit(f.value)">
+        <div class="form-group row">
+          <label  class="col-sm-2 col-form-label " >Nom &nbsp;:</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" name="nom" id="nom" ngModel>
+          </div>
+        </div>
+        <br>
+        <div class="form-group row">
+          <label  class="col-sm-2 col-form-label">Prenom &nbsp;:</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" name="prenom" id="prenom" ngModel>
+          </div>
+        </div>
+        <br>
+        <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Adresse &nbsp; :</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" name="adresse"id="adresse" ngModel>
+            </div>
+          </div>
+          <br>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Email &nbsp; :</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" name="email" id="email" ngModel>
+            </div>
+          </div>
+          <br>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Societe &nbsp; :</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" name="Societe" id="Societe" ngModel>
+            </div>
+          </div>
+          <br>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Poste &nbsp; :</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" name="Poste" id="Poste" ngModel>
+            </div>
+          </div>
+    
+          <button  id='ajout'  class="btn btn-primary" style="background-color: #0B0B3B;color: white;"> Ajouter </button>
+
+    
+      </form>
+
+    </div>

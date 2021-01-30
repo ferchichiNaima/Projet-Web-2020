@@ -1,0 +1,56 @@
+<div class="contenaire-nav-bar-top" >
+  <span id='date1'>{{mydate | date:'short' }} &nbsp; &  &nbsp; Tunise </span>    <img id='quitter' SRC="assets/img11.png" width="50px" height="50px">
+</div >
+
+
+<div class='container-left-navbar'  >
+<ul style="list-style: none;">
+  <li >
+    <br>
+    <br>
+      <img id="ab" SRC="assets/img03.jpg" width="70px" height="70px" >    <span id='Admin'>Espace Admin</span>  
+     <br>
+    <br>
+ <li>
+  <li>
+  <br>
+  <br>
+    <img src="assets/img02.png" class="icon" width="50px" height="50px">
+    <input placeholder="Chercher Session">
+  <br>
+  <br>
+  </li>
+  <li id='cur' [routerLink]="['/']">
+    <img SRC="assets/img01.png" width="35px" height="35px">  <span id='option'>Dashbored</span>  
+    <br>
+    <br>
+  </li>
+  
+  <li id='cur' [routerLink]="['/sessions']">
+    <img SRC="assets/img10.png" width="35px" height="35px"> <span id='option'>Sessions</span>    
+    <br>
+    <br>
+  </li>
+  
+    <li id='cur' [routerLink]="['/foramteur']">
+    <img SRC="assets/img09.png" width="35px" height="35px"> <span id='option'>Formateurs</span>   
+    <br>
+    <br>
+  </li>
+  
+    <li id='cur' [routerLink]="['/participant']">
+    <img SRC="assets/img04.png" width="35px" height="35px"> <span id='option'>Participants</span>   
+    <br>
+    <br>
+  </li>
+  <li>
+    <br><br><br><br><br><br><br>
+  </li>
+  
+</ul>
+
+</div>
+<div class='root'>
+<router-outlet class='routage'></router-outlet>
+
+</div>

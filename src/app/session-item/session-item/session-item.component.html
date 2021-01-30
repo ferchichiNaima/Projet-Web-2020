@@ -1,0 +1,17 @@
+<h2>{{session.name}}</h2>
+<div>{{session.track}}</div>
+<div>Prévue le {{session.date | date}} pendant {{session.duree}} jours à {{session .local}}</div>
+<div>{{session.participants}} Participants</div>
+ <ng-template #ok>Encore {{20 - session.participants}} places sont disponibles!</ng-template>
+<ng-template #notok>Session Complete!</ng-template>
+
+
+<div class="tools">
+    <a class="delete" (click)="send()">
+    Suppression
+    </a>
+    <a class="inscrire"  (click)="send() "[routerLink]="['/modif']" >
+    Modification
+    </a>
+     
+    </div>

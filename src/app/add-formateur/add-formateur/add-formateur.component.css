@@ -1,0 +1,25 @@
+.container{
+    font-family:fantasy;
+    position: absolute;
+    left:350px;
+    top:190px;
+}
+input{
+    width: 400px;
+}
+   
+h1{
+    font-family:fantasy;
+    position: absolute;
+    left:600px;
+    top:110px;
+}
+#ajout{
+    cursor: pointer;
+    position: absolute;
+    left:750px;
+    top:350px;
+    width: 120px;
+    height: 40px;
+
+}

@@ -1,0 +1,42 @@
+<div class='contenaire-acceuil'>
+    <div id="Sessions">
+      <img SRC="assets/img10.png" width="140px" height="140px"> {{sessions.length}}
+      Sessions
+    </div>
+  <div id="Formateurs">
+    <img SRC="assets/img04.png" width="140px" height="140px">{{formateurs.length}} Formateurs
+  </div>
+  <div id="Participant">
+    <img SRC="assets/img09.png" width="130px" height="130px"> {{participants.length}} Participants
+  </div>
+  </div>
+
+<div class='table-sessions'>
+       <table>
+         <th>Track</th>
+         <th>Number</th>
+
+    <tbody *ngFor="let session of sessioncount ; index as i">
+      <tr>
+        <td  >
+         <span id='Name'> {{session.title}}</span>
+        </td>
+        <td  >
+          <span id='Name'> {{session.number}}  </span>
+         </td>
+      </tr>
+    </tbody>
+    </table>
+    </div>
+  <div class='table-top-formateurs'>
+       <table>
+         <th>Top formateur</th>
+    <tbody *ngFor="let formateur of formateurs ; index as i">
+      <tr>
+        <td  >
+         <span id='Name'> {{formateur.prenom}} {{formateur.nom }} </span>
+        </td>
+      </tr>
+    </tbody>
+    </table>
+    </div>

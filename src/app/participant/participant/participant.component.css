@@ -1,0 +1,61 @@
+th{
+    width: 700px;
+    background-color:rgb(119, 119, 250);
+    color:WHITE;
+    text-align :center;
+    cursor: pointer;
+    
+}
+td{
+    width: 700px;
+    text-align :center;
+    background-color:rgb(175, 199, 245);
+}
+.List-Participant{
+    width: 1000px;
+    position: absolute;
+        top:300px;
+        left: 500px;
+
+
+    
+}
+#t1{
+    position: absolute;
+    cursor: pointer;
+    
+    left: 580px;
+
+}
+#t2{
+    position: absolute;
+    cursor: pointer;
+    left: 640px;
+
+}
+#formateur{
+    position: absolute;
+    
+    left: 120px;
+
+}
+#t3{
+    position: absolute;
+    top:200px;
+    left: 500px;
+    cursor: pointer;
+
+}
+#t4{
+    position: absolute;
+    top:200px;
+    left: 600px;
+    cursor: pointer;
+}
+#Name{
+    position: relative;
+    right: 80px;
+    font-size:13px;
+   
+
+}

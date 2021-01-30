@@ -1,0 +1,88 @@
+.container-left-navbar{
+    background-color: #060f61;
+    color:WHITE;
+    width: 290px;
+    height: 1000px;
+    
+}
+.contenaire-nav-bar-top{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color:WHITE;
+    position: absolute;
+    left: 290px;
+    font-family: Georgia, serif;
+    background-color:#060f61;
+    width: 1229px;
+    height: 95px;
+
+}
+.routage{
+    background-color: white;
+    position: absolute;
+    top:200px;
+    right: 700px;
+    font-family: Georgia, serif;
+}
+.root{
+    background-color: white;
+
+}
+.container1{
+    background-color:0B0B3B ;
+    position: absolute;
+    
+}
+#date1{
+    position: absolute;
+    right:100px;
+    top:38px;
+}
+
+#quitter{
+    cursor: pointer;
+    position: absolute;
+    right:19px; 
+    top:22px;
+}
+#option{
+    position: absolute;
+    left:97px;
+    font-size: 22px;
+
+}
+#Admin{
+    position: absolute;
+    left:100px;
+    top:30px;
+    font-size: 24px;
+    text-decoration: thistle;
+    
+}
+#cur{
+    cursor: pointer;
+
+}
+:host {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+width: 100%;
+background-color: #32435b;
+}
+section > header {
+color: #ffffff;
+padding: 10px;
+}
+section > header > h1 {
+font-size: 2em;
+}
+section > header .description {
+font-style: italic;
+}
+#ab{
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}

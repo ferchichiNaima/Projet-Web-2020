@@ -1,0 +1,25 @@
+<div class='ajout-refresh'>
+    <img [routerLink]="['/add-formateur']" id='t3' SRC="assets/image005.png" width="60px" height="60px"> <img id='t4' SRC="assets/image008.png" width="60px" height="60px" >
+    </div>
+  
+  
+    <div class='List-Formateur'>
+      <table>
+        <tr>
+          <th>    Liste de Formateurs  </th>
+        </tr>
+    <tbody *ngFor="let formateur of formateurs ; index as i"
+   >
+  
+  
+      <tr>
+  
+        <td style="height: 70px;  ">
+         <span id='Name'>{{formateur.nom}} {{formateur.prenom}}   {{formateur.adresse}}    {{formateur.email}}    {{formateur.domaineExpertise}}  </span> <img id='t1'  src="assets/image006.png" width="45px" height="40px" (click)="newindex(i) " [routerLink]="['/update-formateur']"><img id='t2' src="assets/image007.png" width="45px" height="40px"  (click)="delete(i)">
+        </td>
+  
+      </tr>
+    </tbody>
+    </table>
+    </div>
+  
